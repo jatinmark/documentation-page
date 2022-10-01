@@ -1,0 +1,119 @@
+body{
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.whole{
+    display: flex;
+    gap: 10px
+}
+.pad{
+    padding-left: 20px;
+}
+h3{
+    padding: 10px 20px 13px 20px;
+}
+.firstdiv{ 
+    
+
+    border-right: 4px solid grey;
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    padding-right: 0;
+}
+.content{
+    
+    display: flex;
+    flex-direction: column;
+  width:77% ;
+   
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    padding: 0;
+}
+.main{
+    margin: 0;
+}
+
+@media only screen and (min-width : 809px)    {
+.content{
+    margin-left: 284px;
+}
+.firstdiv{
+    position: fixed;
+}
+}
+.same{
+    margin-top: 5px;
+    padding-left: 10px;
+}
+.docs{
+    
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+overflow-y: scroll;
+     }
+
+@media only screen and (max-width : 809px)    {
+    .docs{
+        overflow-y: scroll;
+        height: 215px; 
+        
+    }
+    .whole{
+        display: inline;
+    }
+    h3{
+        padding-top: 10px;
+    }
+    .heading{
+        text-align: center;
+        padding: 20px;
+    }
+    .firstdiv{
+        display: inline;
+        margin-right: 20px;
+        width: 100%;
+        border-right: none;
+        
+    }
+    .content{
+        padding-left: 20px;
+        width: 100%;
+    }
+}
+.heading{
+    text-align: center;
+    padding: 20px;
+}
+hr{ 
+    background-color: black;
+    border:  1.5px thin black;
+    margin: 0;
+}
+main{
+    margin: 30px;
+}
+ul{
+    margin-left: 50px;
+}
+li{
+    margin-bottom: 25px;
+}
+.para{
+    margin: 20px;
+}
+.result{
+    margin: 20px;
+
+}
+.box{
+
+     background-color: antiquewhite;
+    max-width: 1200px;
+    margin-left: 40px;
+ 
+}
